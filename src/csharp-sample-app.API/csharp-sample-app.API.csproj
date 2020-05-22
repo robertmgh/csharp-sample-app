@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>csharp_sample_app.API</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\csharp-sample-app.Application\csharp-sample-app.Application.csproj" />
+    <ProjectReference Include="..\csharp-sample-app.Infrastructure\csharp-sample-app.Infrastructure.csproj" />
+  </ItemGroup>
+
+
+</Project>
