@@ -7,3 +7,4 @@
 3. Onion architecture
 4. MongoDB
 5. Docker
+6. Swagger
